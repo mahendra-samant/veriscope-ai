@@ -6,7 +6,6 @@ VeriScope AI is a full-stack misinformation analysis platform that helps users i
 
 Users can submit text-based claims or upload screenshots containing information they want to investigate. The platform retrieves related news coverage, generates an AI-assisted assessment, and maintains a personal verification history.
 
-> **Important:** VeriScope AI provides an AI-generated assessment, not definitive proof. Always review original and authoritative sources before relying on or sharing information.
 
 ---
 
@@ -132,7 +131,6 @@ VeriScopeAI/
 │   └── vite.config.js
 │
 ├── .gitignore
-├── ATTRIBUTION.md
 └── README.md
 ```
 
@@ -155,11 +153,9 @@ Install the following:
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/mahendra-samant/veriscope-ai.git
 cd VeriScopeAI
 ```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
 
 ### 2. Create the Database
 
@@ -310,15 +306,19 @@ AI-generated results may contain errors. News coverage retrieved through RSS is 
 
 ---
 
-## Project Attribution
+## 👨‍💻 Author
 
-This project was adapted from a supplied VeriScope AI / TruthLens codebase and customized with changes to its architecture, dependencies, integrations, and user interface.
+**Mahendra Samant**
 
-Please review `ATTRIBUTION.md` and the original upstream licensing terms before redistributing the project.
+Computer Engineering | Python Full Stack Development
 
----
+- GitHub:`https://github.com/mahendra-samant`
 
-## Author
+## 📄 License
+
+## This project is intended for learning and portfolio demonstration.
+
+⭐ If you find this project interesting, consider starring the repository.
 
 **VeriScope AI**
 
